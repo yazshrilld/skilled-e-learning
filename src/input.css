@@ -9,4 +9,14 @@
     min-height: 100vh;
     background: linear-gradient(#fff, #f0f1ff);
   }
+
+  section {
+    @apply mt-8 mb-4 md:mt-16
+  }
+}
+
+@layer utilities {
+  .hero-btn {
+    background: linear-gradient(#FF6F48, #F02AA6);
+  }
 }
