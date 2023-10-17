@@ -27,8 +27,10 @@
       </div>
     </header>
 
-    <section class="container flex flex-col space-y-10">
-      <div class="top--left space-y-4">
+    <section
+      class="container flex flex-col space-y-10 md:space-y-0 md:flex md:flex-row md:items-center md:justify-between md:gap-5"
+    >
+      <div class="top--left space-y-4 md:w-1/2">
         <div>
           <p class="text-[36px] text-[#13183F] font-[750]">
             Maximize skill, minimize budget
@@ -49,44 +51,61 @@
         </div>
       </div>
 
-      <div class="relative right--bottom">
+      <!-- <div
+        class="relative right--bottom sm:pt-[4rem] md:bg-gradient-to-b from-[#4851FF] to-[#F02AA6]"
+      > -->
+      <div class="relative right--bottom sm:pt-[4rem]">
         <div>
           <img
-            class="w-[270px] h-[270px] rounded-full hero-btn mx-auto object-none object-top"
+            class="w-[270px] h-[270px] rounded-full hero-btn mx-auto object-none object-top sm:w-[370px] sm:h-[370px] md:w-[220px] md:h-[370px] md:object-contain md:mr-[10rem]"
             src="./assets/img/hero-image.png"
             alt=""
           />
         </div>
         <div
-          class="absolute top-0 right-0 text-center w-[95px] h-[80px] bg-white shadow-md rounded-md px-4 py-3"
+          class="absolute top-0 right-0 text-center w-[95px] h-[80px] bg-white shadow-md rounded-md px-4 py-3 sm:w-[125px] sm:h-[120px] sm:top-5 sm:right-5 md:w-[80px] md:h-[80px] md:text-center md:px-0 md:top-12 md:left-40"
         >
-          <p class="capitalize mb-1 text-[#83869A] text-[15px]">members</p>
-          <p class="text-3xl pb-2 text-black font-bold">29k</p>
+          <p
+            class="capitalize mb-1 text-[#83869A] text-[15px] sm:text-xl sm:mb-4 md:text-[15px] md:mb-1"
+          >
+            members
+          </p>
+          <p
+            class="text-3xl pb-2 text-black font-bold sm:text-[40px] md:text-2xl"
+          >
+            29k
+          </p>
         </div>
         <div
-          class="absolute -bottom-10 text-left w-[125px] h-[80px] bg-white shadow-md rounded-md px-4 py-3"
+          class="absolute -bottom-10 text-left w-[125px] h-[80px] bg-white shadow-md rounded-md px-4 py-3 sm:w-[170px] sm:h-[100px] sm:-bottom-7 sm:left-10 md:w-[125px] md:h-[80px] md:-bottom-0 md:-left-[30px]"
         >
-          <p class="mb-1 text-[#83869A] text-[15px]">Course hours</p>
-          <p class="text-2xl pb-2 text-black font-bold">1,451</p>
+          <p class="mb-1 text-[#83869A] text-[15px] sm:text-xl md:text-[15px]">
+            Course hours
+          </p>
+          <p class="text-2xl pb-2 text-black font-bold sm:text-3xl md:text-lg">
+            1,451
+          </p>
         </div>
       </div>
     </section>
 
     <section class="container">
-      <div>
+      <div
+        class="flex flex-col items-center md:grid md:grid-cols-2 md:justify-items-center gap-4 lg:grid lg:grid-cols-3 lg:justify-items-center"
+      >
         <div
-          class="container hero-btn mt-[6rem] bg-gradient-to-b from-[#FF6F48] to-[#F02AA6] w-[286px] rounded-lg"
+          class="container hero-btn mt-[6rem] bg-gradient-to-b from-[#FF6F48] to-[#F02AA6] w-[286px] rounded-lg md:w-[364px] md:h-[224px] md:mt-[3rem] lg:w-[322px] lg:h-[244px]"
         >
           <div>
-            <p class="text-white text-[20px] font-[600] p-3">
+            <p
+              class="text-white text-[20px] font-[600] p-3 lg:text-2xl lg:pt-[2rem]"
+            >
               Check out our most popular courses!
             </p>
           </div>
         </div>
 
-        <div
-          class="relative mt-[3rem] ml-[10px] w-[286px] h-[220px] bg-white rounded-lg"
-        >
+        <div class="relative mt-[3rem] bg-white rounded-lg">
           <div class="absolute ml-[1.5rem]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -130,9 +149,7 @@
           </div>
         </div>
 
-        <div
-          class="relative mt-[3rem] ml-[10px] w-[286px] h-[220px] bg-white rounded-lg"
-        >
+        <div class="relative mt-[3rem] bg-white rounded-lg">
           <div class="absolute ml-[1.5rem]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -142,7 +159,7 @@
               fill="none"
               class="-mt-[1.5rem]"
             >
-              <circle cx="28" cy="28" r="28" fill="url(#paint0_linear_0_25)" />
+              <circle cx="28" cy="28" r="28" fill="url(#paint0_linear_0_184)" />
               <path
                 fill-rule="evenodd"
                 clip-rule="evenodd"
@@ -150,7 +167,7 @@
                 fill="white"
               />
               <mask
-                id="mask0_0_25"
+                id="mask0_0_184"
                 style="mask-type: luminance"
                 maskUnits="userSpaceOnUse"
                 x="19"
@@ -165,10 +182,10 @@
                   fill="white"
                 />
               </mask>
-              <g mask="url(#mask0_0_25)"></g>
+              <g mask="url(#mask0_0_184)"></g>
               <defs>
                 <linearGradient
-                  id="paint0_linear_0_25"
+                  id="paint0_linear_0_184"
                   x1="0"
                   y1="0"
                   x2="0"
@@ -185,7 +202,7 @@
             <div class="text-[#13183F] font-bold">Design</div>
             <div class="text-xs text-[#83869A] leading-5">
               Create beautiful, usable interfaces to help shape the future of
-              how the web looks.
+              how the web looks eautiful, usable interfaces.
             </div>
             <button class="bg-transparent text-[#F74780] font-semibold">
               Get Started
@@ -193,9 +210,7 @@
           </div>
         </div>
 
-        <div
-          class="relative mt-[3rem] ml-[10px] w-[286px] h-[220px] bg-white rounded-lg"
-        >
+        <div class="relative mt-[3rem] bg-white rounded-lg">
           <div class="absolute ml-[1.5rem]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -256,9 +271,7 @@
           </div>
         </div>
 
-        <div
-          class="relative mt-[3rem] ml-[10px] w-[286px] h-[220px] bg-white rounded-lg"
-        >
+        <div class="relative mt-[3rem] bg-white rounded-lg">
           <div class="absolute ml-[1.5rem]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -319,9 +332,7 @@
           </div>
         </div>
 
-        <div
-          class="relative mt-[3rem] ml-[10px] w-[286px] h-[220px] bg-white rounded-lg"
-        >
+        <div class="relative mt-[3rem] bg-white rounded-lg">
           <div class="absolute ml-[1.5rem]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -384,12 +395,16 @@
       </div>
     </section>
 
-    <section class="bg-[#13183F] flex justify-between items-center p-[2rem_1rem]">
-      <div><p class="text-white text-xl font-bold">skilled</p></div>
-      <div>
-        <button class="bg-gradient-to-b from-[#4851FF] to-[#F02AA6] p-[7px_25px] rounded-3xl text-white">
-          Get Started
-        </button>
+    <section class="bg-[#13183F]">
+      <div class="container flex justify-between items-center p-[2rem_1rem]">
+        <div><p class="text-white text-xl font-bold">skilled</p></div>
+        <div>
+          <button
+            class="bg-gradient-to-b from-[#4851FF] to-[#F02AA6] p-[7px_25px] rounded-3xl text-white"
+          >
+            Get Started
+          </button>
+        </div>
       </div>
     </section>
   </body>
